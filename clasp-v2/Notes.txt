@@ -1,10 +1,9 @@
-# GoogleClasp
 Ubuntu 16.04 image with CLASP 2.1.0
 
 
-## INSTRUCTIONS:
+INSTRUCTIONS:
 
-1) Clone this public repository: git clone https://github.com/pablodonayre/GoogleClasp.git
+1) Clone this public repository: git clone https://github.com/pablodonayre/docker-compose.git
 
 2) Go inside CLASP directory
 

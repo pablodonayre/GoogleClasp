@@ -1,0 +1,19 @@
+version: '3'
+services:
+    clasp:
+        # To call from dockerhub
+        image: donayre/clasp:2.1.0
+
+        # To build from our Dockerfile
+        #build: "./config"
+    
+        # To keep running the OS image 
+        # Some OS images exit because they dont have an app running by default
+        command: tail -F /dev/null
+    
+        #container_name: clasp_1
+        restart: on-failure
+
+        volumes: 
+            - "./files:/var/project"
+     
