@@ -10,11 +10,11 @@ Ubuntu 16.04 image with CLASP 2.1.0
 
 3) Execute the following commands (Need to be at the level of docker-compose.yml):
 
-    ´docker-compose up -d´
+    `docker-compose up -d`
 
 4) At this point, the container should be running, check them with: 
 
-    docker ps -a
+    `docker ps -a`
 
 5) In the host machine. Login to your Google Account
 
@@ -22,15 +22,15 @@ Ubuntu 16.04 image with CLASP 2.1.0
 
 7) Go Inside the container: 
 
-    docker exec -it {container name} bash
+    `docker exec -it {container name} bash`
 
 8) Inside the container execute (Login to your account): 
 
-    clasp login [--no-localhost]
+    `clasp login [--no-localhost]`
 
 9) Inside the container execute (to clone a project): 
 
-    clasp clone {Project ID}
+    `clasp clone {Project ID}`
 
 Example:
     The URL of a Google Apps Script Project is like:
@@ -42,13 +42,13 @@ Example:
 ------------------------------------------------------------------------------------------------
 ### CLASP COMMANDS:
 
-clasp login [--no-localhost] [--creds <file>]
+`clasp login [--no-localhost] [--creds <file>]`
 
-clasp logout
+`clasp logout`
 
-clasp create [--title <title>] [--type <type>] [--rootDir <dir>] [--parentId <id>]
+`clasp create [--title <title>] [--type <type>] [--rootDir <dir>] [--parentId <id>]`
 
-clasp clone <scriptId | scriptURL> [versionNumber] [--rootDir <dir>]
+`clasp clone <scriptId | scriptURL> [versionNumber] [--rootDir <dir>]`
 
 clasp pull [--versionNumber]
 
