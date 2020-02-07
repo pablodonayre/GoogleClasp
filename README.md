@@ -4,7 +4,7 @@ Ubuntu 16.04 image with CLASP 2.1.0
 
 ### INSTRUCTIONS:
 
-1) Clone this public repository: git clone https://github.com/pablodonayre/GoogleClasp.git
+1) Clone this public repository: `git clone https://github.com/pablodonayre/GoogleClasp.git`
 
 2) Go inside CLASP directory
 
@@ -32,10 +32,9 @@ Ubuntu 16.04 image with CLASP 2.1.0
 
     `clasp clone {Project ID}`
 
-Example:
+> Example:
     The URL of a Google Apps Script Project is like:
     https://script.google.com/d/1sjfQvLeCcNAtaDSAdZMF_6HFAIQYwnfdobkw8D9lsAxrI8jb9B3sXV2Y/edit?usp=drive_web
-
     So the ID of the project is:
     1sjfQvLeCcNAtaDSAdZMF_6HFAIQYwnfdobkw8D9lsAxrI8jb9B3sXV2Y
 
@@ -50,22 +49,22 @@ Example:
 
 `clasp clone <scriptId | scriptURL> [versionNumber] [--rootDir <dir>]`
 
-clasp pull [--versionNumber]
+`clasp pull [--versionNumber]`
 
-clasp push [--watch] [--force]
+`clasp push [--watch] [--force]`
 
-clasp status [--json]
+`clasp status [--json]`
 
-clasp open [scriptId] [--webapp] [--creds]
+`clasp open [scriptId] [--webapp] [--creds]`
 
-clasp deployments
+`clasp deployments`
 
-clasp deploy [--versionNumber <version>] [--description <description>] [--deploymentId <id>]
+`clasp deploy [--versionNumber <version>] [--description <description>] [--deploymentId <id>]`
 
-clasp undeploy [deploymentId] [--all]
+`clasp undeploy [deploymentId] [--all]`
 
-clasp version [description]
+`clasp version [description]`
 
-clasp versions
+`clasp versions`
 
-clasp list
+`clasp list`
