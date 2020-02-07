@@ -2,7 +2,7 @@
 Ubuntu 16.04 image with CLASP 2.1.0
 
 
-## INSTRUCTIONS:
+### INSTRUCTIONS:
 
 1) Clone this public repository: git clone https://github.com/pablodonayre/GoogleClasp.git
 
@@ -10,7 +10,7 @@ Ubuntu 16.04 image with CLASP 2.1.0
 
 3) Execute the following commands (Need to be at the level of docker-compose.yml):
 
-    docker-compose up -d
+    ´docker-compose up -d´
 
 4) At this point, the container should be running, check them with: 
 
@@ -40,19 +40,32 @@ Example:
     1sjfQvLeCcNAtaDSAdZMF_6HFAIQYwnfdobkw8D9lsAxrI8jb9B3sXV2Y
 
 ------------------------------------------------------------------------------------------------
-CLASP COMMANDS:
+### CLASP COMMANDS:
 
 clasp login [--no-localhost] [--creds <file>]
+
 clasp logout
+
 clasp create [--title <title>] [--type <type>] [--rootDir <dir>] [--parentId <id>]
+
 clasp clone <scriptId | scriptURL> [versionNumber] [--rootDir <dir>]
+
 clasp pull [--versionNumber]
+
 clasp push [--watch] [--force]
+
 clasp status [--json]
+
 clasp open [scriptId] [--webapp] [--creds]
+
 clasp deployments
+
 clasp deploy [--versionNumber <version>] [--description <description>] [--deploymentId <id>]
+
 clasp undeploy [deploymentId] [--all]
+
 clasp version [description]
+
 clasp versions
+
 clasp list
